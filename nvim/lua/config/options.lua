@@ -1,6 +1,6 @@
 vim.g.have_nerd_font = true
 vim.g.netrw_banner = false
-vim.g.netrw_liststyle = 3
+-- vim.g.netrw_liststyle = 3
 
 vim.opt.cursorline = true -- Show which line the cursos is on
 vim.opt.expandtab = true -- Use spaces instead of tabs
