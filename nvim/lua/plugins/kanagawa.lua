@@ -1,3 +1,4 @@
+-- Current colorscheme
 return {
 	"rebelot/kanagawa.nvim",
 	init = function()
