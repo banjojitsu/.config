@@ -15,3 +15,9 @@ vim.opt.smartindent = true -- Inserts indents automatically
 vim.opt.tabstop = 2 -- Number of spaces tabs count for
 vim.opt.termguicolors = true -- True color support
 vim.opt.timeoutlen = 300 -- Displays which-key popup sooner
+
+-- Treesitter
+-- Not sure if this will be useful
+-- vim.opt.foldmethod = "expr"
+-- vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+-- vim.opt.foldlevelstart = 99
