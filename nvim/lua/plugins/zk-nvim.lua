@@ -20,11 +20,23 @@ return {
 			desc = "Insert link",
 			silent = false,
 		},
-    {
-      "<leader>zb",
-      ":ZkBacklinks<cr>",
-      mode="",
-      desc = "View backlinks"
-    }
+		{
+			"<leader>zb",
+			":ZkBacklinks<cr>",
+			mode = "",
+			desc = "View backlinks",
+		},
+		{
+			"<leader>zt",
+			":ZkTags<cr>",
+			mode = "",
+			desc = "View tags",
+		},
+		{
+			"<leader>zo",
+			":ZkNotes<cr>",
+			mode = "",
+			desc = "View notes",
+		},
 	},
 }

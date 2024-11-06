@@ -1,5 +1,7 @@
 vim.g.have_nerd_font = true
-vim.g.netrw_banner = false
+
+-- Disable this since using mini.files
+-- vim.g.netrw_banner = false
 -- vim.g.netrw_liststyle = 3
 
 vim.opt.cursorline = true -- Show which line the cursos is on
