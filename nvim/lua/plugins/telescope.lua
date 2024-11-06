@@ -7,13 +7,19 @@ return {
 			"<leader>tf",
 			require("telescope.builtin").find_files,
 			mode = "",
-			desc = "Telescope find files",
+			desc = "Find files",
 		},
 		{
 			"<leader>ts",
 			require("telescope.builtin").current_buffer_fuzzy_find,
 			mode = "",
-			desc = "Telescope fuzzy find",
+			desc = "Fuzzy search",
+		},
+		{
+			"<leader>tg",
+			require("telescope.builtin").live_grep,
+			mode = "",
+			desc = "Live grep",
 		},
 	},
 	opts = {

@@ -2,15 +2,10 @@ return {
 	"folke/which-key.nvim",
 	event = "VeryLazy",
 	opts = {
-    preset = "helix"
-	},
-	keys = {
-		{
-			"<leader>?",
-			function()
-				require("which-key").show({ global = false })
-			end,
-			desc = "Buffer Local Keymaps (which-key)",
+		preset = "helix",
+		spec = {
+			{ "<leader>t", group = "Telescope" },
+			{ "<leader>o", group = "Obsidian" },
 		},
 	},
 }
