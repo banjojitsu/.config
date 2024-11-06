@@ -18,7 +18,10 @@ return {
 		},
 		{
 			"<leader>zi",
-			":ZkInsertLink<cr>",
+			-- ":ZkInsertLink<cr>",
+      function ()
+        require('zk.commands').get('ZkInsertLink')({})
+      end,
 			mode = "",
 			desc = "Insert link",
 			silent = false,
