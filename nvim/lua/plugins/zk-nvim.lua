@@ -8,7 +8,10 @@ return {
 	keys = {
 		{
 			"<leader>zn",
-			":ZkNew {title=vim.fn.input('Title: ')}<cr>",
+			-- ":ZkNew {title=vim.fn.input('Title: ')}<cr>",
+			function()
+				require("zk.commands").get("ZkNew")({ title = vim.fn.input("Title: ") })
+			end,
 			mode = "",
 			desc = "New note",
 			silent = false,
@@ -37,6 +40,14 @@ return {
 			":ZkNotes<cr>",
 			mode = "",
 			desc = "View notes",
+		},
+		{
+			"<leader>zd",
+			function()
+				require("zk.commands").get("ZkNew")({ dir = "daily" })
+			end,
+			mode = "",
+			desc = "Daily",
 		},
 	},
 }

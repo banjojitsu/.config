@@ -6,8 +6,11 @@ local map = vim.keymap.set
 -- More natural way to get to command line
 map("n", "<leader><leader>", ":", { desc = "::" })
 
+-- Easier exits
+map("n", "<leader>q", ":q!<cr>", { desc = "Exit" })
+
 -- Close all buffers
-map("n", "<leader>c", ":%bd<cr>", { desc = "Close file" })
+map("n", "<leader>c", ":%bd!<cr>", { desc = "Close file" })
 
 -- Search and replace word under cursor
 map("n", "<leader>r", ":%s/<c-r><c-w>", { desc = "Replace" })
