@@ -4,8 +4,8 @@ vim.g.netrw_banner = false
 
 vim.opt.cursorline = true -- Show which line the cursos is on
 vim.opt.expandtab = true -- Use spaces instead of tabs
-vim.opt.list = true -- Set how neovim displays certain whitespace
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+-- vim.opt.list = true -- Set how neovim displays certain whitespace
+-- vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.number = true -- Make line numbers default
 vim.opt.scrolloff = 4 -- Lines of context
 vim.opt.shiftround = true -- Round indent

@@ -5,7 +5,8 @@ return {
 		preset = "helix",
 		spec = {
 			{ "<leader>t", group = "Telescope" },
-			{ "<leader>o", group = "Obsidian" },
+      {'<leader>z', group="zk"}
 		},
+		icons = { mappings = false },
 	},
 }

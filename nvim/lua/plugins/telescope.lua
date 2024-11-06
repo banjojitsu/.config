@@ -23,9 +23,11 @@ return {
 		},
 	},
 	opts = {
-		pickers = {
-			find_files = { theme = "dropdown" },
-			current_buffer_fuzzy_find = { theme = "dropdown" },
-		},
+    defaults = require('telescope.themes').get_dropdown {}
+	--	pickers = {
+	--		find_files = { theme = "dropdown" },
+	--		current_buffer_fuzzy_find = { theme = "dropdown" },
+	--		live_grep = { theme = "dropdown" },
+	--	},
 	},
 }
