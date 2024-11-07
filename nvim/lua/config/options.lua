@@ -17,6 +17,7 @@ vim.opt.smartindent = true -- Inserts indents automatically
 vim.opt.tabstop = 2 -- Number of spaces tabs count for
 vim.opt.termguicolors = true -- True color support
 vim.opt.timeoutlen = 300 -- Displays which-key popup sooner
+vim.opt.conceallevel = 1 -- For obsidian
 
 -- Treesitter
 -- Not sure if this will be useful
